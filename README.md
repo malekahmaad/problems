@@ -1,6 +1,16 @@
-# problems
+# DSA problems
 
-this repository contains data structures and algorithms problems that I took from the AI and solved it
+This repository contains Data Structures and Algorithms (DSA) problems that I took from the AI and solved it.
+
+Each problem includes:
+
+A clear description
+
+Input/output examples
+
+My Python solution
+
+Basic test cases
 
 # DAY 1:
 
