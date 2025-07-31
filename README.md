@@ -4,13 +4,13 @@ This repository contains Data Structures and Algorithms (DSA) problems that I to
 
 Each problem includes:
 
-A clear description
+- A clear description
 
-Input/output examples
+- Input/output examples
 
-My Python solution
+- My Python solution
 
-Basic test cases
+- Basic test cases
 
 # DAY 1:
 
