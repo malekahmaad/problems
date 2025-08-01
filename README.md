@@ -11,7 +11,7 @@ Each problem includes:
 - My Python solution
 
 - Basic test cases
-
+------------------------------------------------------------------------------------------------------------------------------------
 # DAY 1:
 
 1- problem 1: Given an array of intervals where intervals[i] = [start_i, end_i], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
