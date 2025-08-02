@@ -18,14 +18,18 @@ Each problem includes:
 
 example: 
 
-Input: [[1,3],[2,6],[8,10],[15,18]]  Output: [[1,6],[8,10],[15,18]]
+Input: [[1,3],[2,6],[8,10],[15,18]]  
+
+Output: [[1,6],[8,10],[15,18]]
 
 2- problem 2: Given an unsorted array of integers nums, return the length of the longest consecutive elements sequence.
 You must write an algorithm that runs in O(n) time.
 
 example: 
 
-Input: [100, 4, 200, 1, 3, 2] Output: 4
+Input: [100, 4, 200, 1, 3, 2] 
+
+Output: 4
 
 ------------------------------------------------------------------------------------------------------------------------------------
 # DAY 2:
@@ -34,7 +38,9 @@ Input: [100, 4, 200, 1, 3, 2] Output: 4
 
 example: 
 
-Input: Input: nums = [1,1,1,2,2,3], k = 2   Output: [1,2]
+Input: nums = [1,1,1,2,2,3], k = 2   
+
+Output: [1,2]
 
 ------------------------------------------------------------------------------------------------------------------------------------
 # DAY 3:
@@ -43,7 +49,9 @@ Input: Input: nums = [1,1,1,2,2,3], k = 2   Output: [1,2]
 
 example: 
 
-Input: coins = [1, 2, 5], amount = 11  Output: 3  Explanation: 11 = 5 + 5 + 1
+Input: coins = [1, 2, 5], amount = 11  
+
+Output: 3 , Explanation: 11 = 5 + 5 + 1
 
 2- problem 5: Given a 2D grid of '1's (land) and '0's (water), count the number of islands. An island is formed by connecting adjacent '1's horizontally or vertically (not diagonally). You may assume the grid is surrounded by water ('0's).
 
@@ -53,6 +61,8 @@ Input: grid = [ ["1","1","0","0","0"],
                 ["1","1","0","0","0"],
                 ["0","0","1","0","0"],
                 ["0","0","0","1","1"]
-              ]                                    Output: 3
+              ]                                    
+              
+Output: 3
 
 ------------------------------------------------------------------------------------------------------------------------------------
