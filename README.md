@@ -37,3 +37,23 @@ example:
 Input: Input: nums = [1,1,1,2,2,3], k = 2   Output: [1,2]
 
 ------------------------------------------------------------------------------------------------------------------------------------
+# DAY 3:
+
+1- problem 4: You are given an integer array coins representing coin denominations, and an integer amount representing a total amount of money. Return the minimum number of coins needed to make up that amount. If it is not possible, return -1.
+
+example: 
+
+Input: coins = [1, 2, 5], amount = 11  Output: 3  Explanation: 11 = 5 + 5 + 1
+
+2- problem 5: Given a 2D grid of '1's (land) and '0's (water), count the number of islands. An island is formed by connecting adjacent '1's horizontally or vertically (not diagonally). You may assume the grid is surrounded by water ('0's).
+
+example: 
+
+Input: grid = [                                      Output: 3
+                ["1","1","0","0","0"],
+                ["1","1","0","0","0"],
+                ["0","0","1","0","0"],
+                ["0","0","0","1","1"]
+              ]
+
+------------------------------------------------------------------------------------------------------------------------------------
