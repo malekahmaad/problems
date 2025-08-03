@@ -66,3 +66,22 @@ Input: grid = [ ["1","1","0","0","0"],
 Output: 3
 
 ------------------------------------------------------------------------------------------------------------------------------------
+# DAY 4:
+
+1- problem 6: Given an array of integers nums and an integer k, return the total number of subarrays whose sum equals to k.
+
+example: 
+
+Input: nums = [1, 1, 1], k = 2  
+
+Output: 2
+
+2- problem 7: Given a string containing digits from 2 to 9, return all possible letter combinations that the number could represent. Each digit maps to letters like on a phone keypad.
+
+example: 
+
+Input: digits = "23"
+
+Output: ["ad","ae","af","bd","be","bf","cd","ce","cf"]
+
+------------------------------------------------------------------------------------------------------------------------------------
