@@ -99,12 +99,12 @@ Output: "bab"
 
 2- problem 9: You’re given an array of integers temperatures, where temperatures[i] is the temperature on day i. Return an array answer such that answer[i] is the number of days you have to wait after the i-th day to get a warmer temperature. If there’s no future day where this happens, put 0 instead.
 
+NOTE: must be O(n), not O(n²)
+
 example: 
 
 Input:  temperatures = [73,74,75,71,69,72,76,73]
 
 Output: [1, 1, 4, 2, 1, 1, 0, 0]
-
-NOTE: must be O(n), not O(n²)
 
 ------------------------------------------------------------------------------------------------------------------------------------
