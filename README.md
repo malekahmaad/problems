@@ -119,3 +119,32 @@ Input: s = "ADOBECODEBANC", t = "ABC"
 Output: "BANC"
 
 ------------------------------------------------------------------------------------------------------------------------------------
+# DAY 7:
+
+1- problem 11: Given a string s, find the length of the longest substring without repeating characters.
+
+example: 
+
+Input: s = "abcabcbb"
+
+Output: abc
+
+Explanation: The answer is "abc", with length 3.
+
+2- problem 12: Given a string s, return the index of the first non-repeating character.
+
+example: 
+
+Input: s = "leetcode"
+
+Output: 0
+
+3- problem 13: You are given a list of integers. Your task is to find the two numbers whose sum is closest to zero and return them.
+
+example: 
+
+Input: [-8, -66, -60]
+
+Output: (-60, -8)
+
+------------------------------------------------------------------------------------------------------------------------------------
