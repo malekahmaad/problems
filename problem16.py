@@ -1,44 +1,48 @@
-def Binary_Tree_Level_Order_Traversal(root:list):
-    queue = list()
-    current_level = 0
-    queue_size = 0
+class TreeNode:
+    def __init__(self, val=0, left=None, right=None):
+        self.val = val
+        self.left = left
+        self.right = right
+
+def Binary_Tree_Level_Order_Traversal(root:TreeNode):
+    queue = [root]
     result = list()
-    for node in root:
-        queue.append(node)
-        queue_size += 1
-        if queue_size == 2 ** current_level:
-            level = list()
-            while queue_size > 0:
-                n = queue.pop(0)
-                level.append(n)
-                queue_size -= 1
+    while len(queue) > 0:
+        level = list()
+        size = len(queue)
+        for _ in range(size):
+            node = queue.pop(0)
+            level.append(node.val)
+            if node.left != None:
+                queue.append(node.left)
 
-            result.append(level)            
-            current_level += 1
+            if node.right != None:
+                queue.append(node.right)
+        
+        result.append(level)
 
-    level = list()
-    if queue_size > 0:
-        while queue_size > 0:
-            n = queue.pop(0)
-            level.append(n)
-            queue_size -= 1
-                
-        result.append(level) 
     return result
 
-
-root = [3,9,20,15,7]
+right = TreeNode(20, TreeNode(15), TreeNode(17))
+left = TreeNode(9)
+root =  TreeNode(3, left, right)
 print("TEST 1:")
 print(Binary_Tree_Level_Order_Traversal(root), end="\n\n")
 
-root = [3,9,20,15,7,13,12,10,2]
+right = TreeNode(20, TreeNode(15), TreeNode(17))
+left = TreeNode(9, TreeNode(19), TreeNode(12))
+root =  TreeNode(3, left, right)
 print("TEST 2:")
 print(Binary_Tree_Level_Order_Traversal(root), end="\n\n")
 
-root = [3,9,20,5,8,15,7]
+right = TreeNode(20, TreeNode(15, TreeNode(5)), TreeNode(17))
+left = TreeNode(9, TreeNode(19, TreeNode(7)), TreeNode(12))
+root =  TreeNode(3, left, right)
 print("TEST 3:")
 print(Binary_Tree_Level_Order_Traversal(root), end="\n\n")
 
-root = [3,9,20,5]
+right = TreeNode(20, TreeNode(15))
+left = TreeNode(9)
+root =  TreeNode(3, left, right)
 print("TEST 4:")
 print(Binary_Tree_Level_Order_Traversal(root), end="\n\n")
