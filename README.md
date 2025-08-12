@@ -148,3 +148,41 @@ Input: [-8, -66, -60]
 Output: (-60, -8)
 
 ------------------------------------------------------------------------------------------------------------------------------------
+# DAY 8:
+
+1- problem 14: Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+
+example: 
+
+Input: nums = [2, 7, 11, 15], target = 9  
+
+Output: [0, 1]
+
+2- problem 15: Given a string s and an integer k, return the length of the longest substring that contains at most k distinct characters.
+
+example: 
+
+Input: s = "eceba", k = 2  
+
+Output: 3  
+
+Explanation: "ece" has length 3 and only two distinct characters: 'e' and 'c'.
+
+3- problem 16: Given the root of a binary tree, return the level order traversal of its nodes' values. (i.e., from left to right, level by level).
+
+example: 
+
+Input: root =         1
+                    
+                     / \
+                   
+                    2   3
+                    
+                     \
+                     
+                      4
+
+
+Output: [[3],[9,20],[15,7]]
+
+------------------------------------------------------------------------------------------------------------------------------------
