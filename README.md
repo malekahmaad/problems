@@ -172,14 +172,12 @@ Explanation: "ece" has length 3 and only two distinct characters: 'e' and 'c'.
 
 example: 
 
-Input: root =         1
-                    
-                     / \
-                   
+Input: root =         
+
+                      1
+                     / \                   
                     2   3
-                    
                      \
-                     
                       4
 
 
